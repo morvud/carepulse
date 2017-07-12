@@ -3,6 +3,7 @@ import { loadData, updateData } from './components/carepulseService'
 import { Header } from './components/common/header'
 import { Footer } from './components/common/footer'
 import { Panel } from './components/panel'
+import { Imports } from './components/imports'
 
 class App extends Component {
   constructor(props) {
@@ -72,6 +73,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        {/* Importing bootstrap and fontawesome via CDN */}
+        <Imports />
         {/* Header component */}
         <Header />
         <div className="container">
