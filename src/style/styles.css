@@ -1,0 +1,82 @@
+.App {
+  width:100%;
+  overflow: hidden;
+}
+
+#logo {
+  position: relative;
+  left: 5%;
+  margin: auto;
+  max-width: 250px;
+  width: 35%;
+  height: auto;
+}
+
+#nhs {
+  max-width: 250px;
+  width: 35%;
+  position: absolute;
+  right: 5%;  
+}
+
+.header {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 10px;
+  width:100%;
+}
+
+.sticky-footer {
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5rem;
+    background-color: #2980b9;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+.Collapsible {
+  background-color: white;
+}
+
+.Collapsible__contentInner {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  border-top: 0; }
+  .Collapsible__contentInner p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px; }
+    .Collapsible__contentInner p:last-child {
+      margin-bottom: 0; }
+
+.Collapsible__trigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333333;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  background: #2980b9;
+  color: white; 
+  cursor: pointer; }
+  .Collapsible__trigger:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms; }
+  .Collapsible__trigger.is-open:after {
+    transform: rotateZ(180deg); }
+
+.right{
+  text-align: right;
+}
+
+.btn-primary {
+  background-color: #41B6E6;
+}
